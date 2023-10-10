@@ -1,0 +1,40 @@
+*{padding: 0%; margin: 0%; font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#111,#111 ) 
+    
+}
+body::after{
+    content:"" ; width: 100%; height: 100%; background: red; position: absolute; clip-path: circle(40% at right 70% );
+    z-index: -1;
+}
+.container{ width: 80%; height: 80%; border-radius: 20px; background: rgba(255,255,255,0.1) 
+    
+}
+nav{
+    display: flex; justify-content: space-between; align-items: center; width: 80%; margin: auto; padding: 20px 0%;
+}
+a.logo{
+    color: white; text-decoration: none; font-size: 32px; text-transform: uppercase;
+    letter-spacing: 3px; font-weight: 700px;
+}
+nav ul  li{
+    display: inline-block;
+    margin: 0px 6px;
+}
+nav ul li a{
+    color: white; text-decoration:none ;font-size: 18;
+}
+nav ul li a{color: white;}
+.content{display: flex; justify-content: space-between; align-items: center; height: 100%; width: 80%; 
+margin: auto;}
+ .text{color: thistle;width: 40%; }
+.h2{font-size: 40px; text-transform: uppercase; font-weight: 700; letter-spacing: 2px;}
+.p{
+    font-size: 40px ; line-height: 25px; letter-spacing: 1px; margin: 10px;
+}
